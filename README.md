@@ -1,14 +1,8 @@
-# Welcome to your CDK TypeScript project
+Initial VPC Exercise Using CDK
 
-This is a blank project for CDK development with TypeScript.
+This is an exercise where I use CDK to build infrastructure in AWS. Initially I built the following infrastructure:
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+- A VPC with 2 AZs. 
+- Each AZ contains 1 Public subnet and 1 Private subnet.
 
-## Useful commands
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
