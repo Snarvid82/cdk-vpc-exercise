@@ -4,6 +4,10 @@
 
 This repository contains the code for a CDK (Cloud Development Kit) project focused on creating and managing VPC (Virtual Private Cloud) resources in AWS. The primary goal is to provide a foundational infrastructure component that can be easily deployed and customized for various application needs.
 
+The goal of this Project was to use CDK to create a VPC with 2 Availability Zones. Each AZ will contain 1 Public subnet and 2 private subnets. 1 private subnet in each AZ will contain an EC2 instance.
+
+My plan going forward is to create a RDS in each of the other 2 private subnets.
+
 ## Key Features & Benefits
 
 *   **Infrastructure as Code:** Define and manage VPC resources using the CDK, enabling version control, repeatability, and automated deployments.
