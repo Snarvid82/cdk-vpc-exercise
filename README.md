@@ -1,4 +1,3 @@
-md
 # cdk-vpc-exercise
 
 ## Project Overview
